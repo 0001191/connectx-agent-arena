@@ -1,39 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ConnectX vs Agent</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <main class="page">
-    <section class="panel">
-      <div class="panel-copy">
-        <p class="eyebrow">Public Match</p>
-        <h1>Play ConnectX Against Your Agent</h1>
-        <p class="subcopy">
-          This static frontend is designed for GitHub Pages. It talks to the deployed Hugging Face Space backend over JSON APIs.
-        </p>
-        <p class="backend-note" id="backend-note">Backend: checking configuration...</p>
-      </div>
-      <div class="controls">
-        <div class="button-row">
-          <button class="choice active" data-human-mark="1" id="play-first">You First</button>
-          <button class="choice" data-human-mark="2" id="play-second">AI First</button>
-        </div>
-        <button class="restart" id="restart-button">New Game</button>
-      </div>
-      <div class="status" id="status-text">Loading board...</div>
-    </section>
-
-    <section class="board-shell">
-      <div class="board-header" id="board-header"></div>
-      <div class="board" id="board" aria-label="ConnectX board"></div>
-    </section>
-  </main>
-
-  <script src="./config.js"></script>
-  <script src="./app.js"></script>
-</body>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConnectX 赛博棋局</title>
+    <script src="./config.js"></script>
+    <script type="module" crossorigin src="./assets/index-QRbuN2ph.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B97GNnHJ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
